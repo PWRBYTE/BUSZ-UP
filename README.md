@@ -41,4 +41,4 @@ Business chaining is an important aspect in increasing the profits and for the b
 We are team PWRBYTE , an enthusiastic group of 2nd Year Engineering Students exploring technology .
 Names - Atrij Paul , Arijit Ghosh , Sabuj Ghosh , Sworjjomoy Pathak
 
-![Logo](https://cdn-images-1.medium.com/max/1200/1*MLwsGzegxKWBKgxDk49wVA.jpeg)
+![Logo](https://i.postimg.cc/Dz3XjKB5/TEAM-PWRBYTE.png)
