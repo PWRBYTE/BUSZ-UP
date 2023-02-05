@@ -1,15 +1,24 @@
 import { useState } from "react";
+import { useStoryblok } from "@storyblok/react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 
 const Signup = () => {
+
+
 	const [data, setData] = useState({
 		firstName: "",
 		lastName: "",
 		email: "",
 		password: "",
 	});
+
+	const story = useStoryblok('storyblok', { version: "draft" });
+    // const homeStory = useStoryblok('home', { version: "draft" });
+    // console.log({story,homeStory});
+
+
 	const [error, setError] = useState("");
 	const [msg, setMsg] = useState("");
 
@@ -40,9 +49,10 @@ const Signup = () => {
 				<div className={styles.left}>
 					<h1>Welcome Back</h1>
 					<Link to="/login">
-						<button type="button" className={styles.white_btn}>
-							Sign in
-						</button>
+					<a href="#" type="submit" className="btn">
+								
+								<span id="wallet">Login to Your Account</span>
+							</a>
 					</Link>
 				</div>
 				<div className={styles.right}>
@@ -86,9 +96,7 @@ const Signup = () => {
 						/>
 						{error && <div className={styles.error_msg}>{error}</div>}
 						{msg && <div className={styles.success_msg}>{msg}</div>}
-						<button type="submit" className={styles.green_btn}>
-							Sign Up
-						</button>
+						<button id="wallet" type="submit" className="btn" >Create Account</button>
 					</form>
 				</div>
 			</div>

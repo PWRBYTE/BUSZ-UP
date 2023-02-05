@@ -34,7 +34,7 @@ const Login = () => {
 			<div className={styles.login_form_container}>
 				<div className={styles.left}>
 					<form className={styles.form_container} onSubmit={handleSubmit}>
-						<h1>Login to Your Account</h1>
+						<h1>Login</h1>
 						<input
 							type="email"
 							placeholder="Email"
@@ -57,17 +57,19 @@ const Login = () => {
 							<p style={{ padding: "0 15px" }}>Forgot Password ?</p>
 						</Link>
 						{error && <div className={styles.error_msg}>{error}</div>}
-						<button type="submit" className={styles.green_btn}>
-							Sign In
-						</button>
+						
+								
+								<button id="wallet" type="submit" className="btn">Login to Your Account</button>
+							
 					</form>
 				</div>
 				<div className={styles.right}>
 					<h1>New Here ?</h1>
 					<Link to="/signup">
-						<button type="button" className={styles.white_btn}>
-							Sign Up
-						</button>
+					<a href="#" className="btn">
+								
+								<span id="wallet">Create a new Account</span>
+							</a>
 					</Link>
 				</div>
 			</div>
