@@ -36,7 +36,7 @@ const Main = () => {
 										</div> */}
 									</li>
 									<li className="navbar__menulist navbar__menu--haschildren">
-										<a href="#" className="navbar__menulink">
+										<a href="https://colab.research.google.com/drive/1sSyEDbEQfklmkYXdvZdIh35e2QtOzzNN#scrollTo=4042j_pdzoYq" className="navbar__menulink">
 											Locator
 											<i className="fa-solid fa-angle-down" />
 										</a>
@@ -64,7 +64,7 @@ const Main = () => {
 										</div> */}
 									</li>
 									<li className="navbar__menulist navbar__menu--haschildren">
-										<a href="#" className="navbar__menulink">
+										<a href="http://localhost:3001/" className="navbar__menulink">
 											Employees Review
 											<i className="fa-solid fa-angle-down" />
 										</a>
@@ -312,7 +312,7 @@ const Main = () => {
 										</div>
 										<div className="auction__card--title">
 											<h5>
-												<a href="#">Employees Review</a>
+												<a href="http://localhost:3001/">Employees Review</a>
 											</h5>
 										</div>
 										<div className="auction__card--bottom">
@@ -341,7 +341,7 @@ const Main = () => {
 										</div>
 										<div className="auction__card--title">
 											<h5>
-												<a href="#">Locator</a>
+												<a href="https://colab.research.google.com/drive/1sSyEDbEQfklmkYXdvZdIh35e2QtOzzNN#scrollTo=4042j_pdzoYq">Locator</a>
 											</h5>
 										</div>
 										<div className="auction__card--bottom">
