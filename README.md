@@ -33,10 +33,12 @@ Business chaining is an important aspect in increasing the profits and for the b
 
 ## Screen Shots :
 ![App Screenshot](https://i.postimg.cc/G3XgZM0v/React-App-Brave-05-02-2023-07-21-29.png)
-
+![App Screenshot](https://i.postimg.cc/q7H18SnH/2.png)
+![App Screenshot](https://i.postimg.cc/xCtgVdZ9/3.png)
+![App Screenshot](https://i.postimg.cc/sfHKnvSc/4.png)
 ## Future Plans :
 
-1. A blockchain service will be made where the people aspiring for jobs can store their informations or credentials
+1. A blockchain service will be made where the people aspiring for jobs can store their informations or credentials . This will bring transperancy to the verification process before the hiring process of the employee. This will reduce the time of verification from 3-4 days to just few minutes .It will be a white brand labelling buainess which will be direct to consumer.
 ## About Us :
 
 We are team PWRBYTE , an enthusiastic group of 2nd Year Engineering Students exploring technology .
