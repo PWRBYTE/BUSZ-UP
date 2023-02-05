@@ -29,29 +29,29 @@ const Main = () => {
 											Home
 											<i className="fa-solid fa-angle-down" />
 										</a>
-										<div className="navbar__submenu navbar__megamenu navbar__column--mega2">
+										{/* <div className="navbar__submenu navbar__megamenu navbar__column--mega2">
 											<div className="megamenu__list--item">
 												<h4>Home Pages</h4>
 											</div>
-										</div>
+										</div> */}
 									</li>
 									<li className="navbar__menulist navbar__menu--haschildren">
 										<a href="#" className="navbar__menulink">
-											Market
+											Locator
 											<i className="fa-solid fa-angle-down" />
 										</a>
-										<div className="navbar__submenu navbar__submenu--single">
+										{/* <div className="navbar__submenu navbar__submenu--single">
 											<ul className="navbar__submenu--lists">
 												<li className="navbar__submenu--list">
 													<a href="#" className="navbar__submenu--link">
 														<i className="fa-solid fa-address-book" />
-														Page 1
+														Employee Review
 													</a>
 												</li>
 												<li className="navbar__submenu--list">
 													<a href="#" className="navbar__submenu--link">
 														<i className="fa-solid fa-address-book" />
-														Page 2
+														Locator
 													</a>
 												</li>
 												<li className="navbar__submenu--list">
@@ -61,16 +61,16 @@ const Main = () => {
 													</a>
 												</li>
 											</ul>
-										</div>
+										</div> */}
 									</li>
 									<li className="navbar__menulist navbar__menu--haschildren">
 										<a href="#" className="navbar__menulink">
-											Locator
+											Employees Review
 											<i className="fa-solid fa-angle-down" />
 										</a>
-										<div className="navbar__submenu navbar__submenu--single">
+										{/* <div className="navbar__submenu navbar__submenu--single">
 											<ul className="navbar__submenu--lists"></ul>
-										</div>
+										</div> */}
 									</li>
 									{/* <li className="navbar__menulist navbar__menu--haschildren">
                 <a href="#" className="navbar__menulink">
@@ -312,18 +312,19 @@ const Main = () => {
 										</div>
 										<div className="auction__card--title">
 											<h5>
-												<a href="#">Hire</a>
+												<a href="#">Employees Review</a>
 											</h5>
 										</div>
 										<div className="auction__card--bottom">
 											<div className="auction__price">
-												<span>Hire the best Employees for your next Venture for exponential growth and efficiency and keep track of them effortlessly</span>
+												<span>Find the best Employees for your next Venture for exponential growth and efficiency and keep track of them effortlessly</span>
 											</div>
 
 										</div>
 									</div>
 								</div>
-								<div className="auction--item">
+								<div className="auctio
+								n--item">
 									<div className="auction__card">
 										<div className="auction__card--media">
 											<a href="#">

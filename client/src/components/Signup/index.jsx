@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useStoryblok } from "@storyblok/react";
+
 import axios from "axios";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
@@ -14,9 +14,7 @@ const Signup = () => {
 		password: "",
 	});
 
-	const story = useStoryblok('storyblok', { version: "draft" });
-    // const homeStory = useStoryblok('home', { version: "draft" });
-    // console.log({story,homeStory});
+	
 
 
 	const [error, setError] = useState("");

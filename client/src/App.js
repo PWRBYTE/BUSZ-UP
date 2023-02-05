@@ -5,7 +5,7 @@ import Login from "./components/Login";
 import EmailVerify from "./components/EmailVerify";
 import ForgotPassword from "./components/ForgotPassword";
 import PasswordReset from "./components/PasswordReset";
-import Storyblok from "./components/Storyblok";
+
 
 function App() {
 	const user = localStorage.getItem("token");
@@ -19,7 +19,7 @@ function App() {
 			<Route path="/users/:id/verify/:token" element={<EmailVerify />} />
 			<Route path="/forgot-password" element={<ForgotPassword />} />
 			<Route path="/password-reset/:id/:token" element={<PasswordReset />} />
-			<Route path="/storyblok" element={<Storyblok />} />
+			
 		</Routes>
 	);
 }
