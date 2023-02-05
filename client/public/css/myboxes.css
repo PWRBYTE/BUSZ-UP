@@ -1,0 +1,14 @@
+.namebox{
+    position: absolute;
+    top:120px;
+    left: 100px;
+     width: 90%;
+     height:72%;
+     background: #0c1022;
+     box-shadow: 15px 15px 35px 10px #230063;;;
+     border-radius: 50px 5px 50px ;
+     display: flex;
+   
+     overflow: hidden;
+     
+ }
